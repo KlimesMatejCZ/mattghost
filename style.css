@@ -77,7 +77,7 @@ nav ul a:hover, .aktivni a {
 /* Menu - konec */
 /* Banner - začátek */
 .header {
-  padding: 15%;
+  padding: 20%;
   text-align: center;
   background:url(' obrazky/server.jpg');
   color: white;
@@ -100,3 +100,38 @@ footer a {
     text-decoration: none;
 }
 /* Patička - konec */
+article h2 {
+    font-size: 2em;
+}
+
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 4px solid #EF6534;
+}
+
+article h1, h2, h3, h4, h5, h6 {
+    padding: 10px 0;
+    color: #00386B;
+    width: max-content;
+}
+
+article header {
+    height: 100px;
+    background: none;
+}
+
+article section {
+    margin: 0;
+}
+
+article section p {
+    margin-bottom: 1.5em;
+    line-height: 1.8em;
+}
+
+article section a {
+    color: #EF6534;
+}
