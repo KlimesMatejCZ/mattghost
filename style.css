@@ -77,7 +77,7 @@ nav ul a:hover, .aktivni a {
 /* Menu - konec */
 /* Banner - začátek */
 .header {
-  padding: 20%;
+  padding: 15%;
   text-align: center;
   background:url(' obrazky/server.jpg');
   color: white;
@@ -134,4 +134,18 @@ article section p {
 
 article section a {
     color: #EF6534;
+}
+
+.container {
+    flex-direction: row;
+    display: flex;
+}
+
+.clen-tymu {
+    margin: 30px;
+    background-color: white;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: grey 4px 6px 20px;
 }
