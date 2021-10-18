@@ -100,10 +100,6 @@ footer a {
     text-decoration: none;
 }
 /* Patička - konec */
-article h2 {
-    font-size: 2em;
-}
-
 article h1 {
     margin: 0;
     font-size: 2.3em;
@@ -112,10 +108,20 @@ article h1 {
     border-bottom: 4px solid #EF6534;
 }
 
-article h1, h2, h3, h4, h5, h6 {
+article h1, h4, h5, h6 {
     padding: 10px 0;
     color: #00386B;
     width: max-content;
+}
+
+article h2 {
+    margin: 0;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #00386B;
+    text-align: center;
 }
 
 article header {
@@ -139,13 +145,29 @@ article section a {
 .container {
     flex-direction: row;
     display: flex;
+    justify-content: center;
 }
 
 .clen-tymu {
     margin: 20px;
     background-color: white;
     height: auto;
-    padding: 10px;
+    width: 300px;
+    padding: 20px;
     border-radius: 30px;
     box-shadow: grey 4px 6px 20px;
+    text-align: center;
+}
+
+.clen-tymu-jmeno {
+  text-align: center;
+}
+
+.clen-tymu-fork {
+
+}
+
+.profil {
+  max-width: 100%;
+  height: auto;
 }
