@@ -199,7 +199,19 @@ article section a {
     color: #00386B;
 }
 
+.login-title {
+    font-size: 12px;
+    color: #414042;
+    text-align: left;
+    margin-left: 30px;
+}
+
 .login-usrname {
+    border: none;
+    border-bottom: 4px solid #EF6534;
+}
+
+.login-usrpassword {
     border: none;
     border-bottom: 4px solid #EF6534;
 }
@@ -207,4 +219,9 @@ article section a {
 .login-btn {
     border-radius: 18px;
     background-color: #F53232;
+    margin: 5px 5px 10px 10px;
+    border: none;
+    padding: auto;  
+    color: #fff;
+    font-size: 18px;
 }
