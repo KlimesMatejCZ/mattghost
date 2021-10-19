@@ -171,3 +171,40 @@ article section a {
   max-width: 100%;
   height: auto;
 }
+
+.login {
+    background-image: url(obrazky/fog-6696312.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.login-container {
+    margin: 20px;
+    background-color: white;
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: grey 4px 6px 20px;
+    text-align: center;
+}
+
+.login-text {
+    font-size: 32px;
+    color: #00386B;
+}
+
+.login-usrname {
+    border: none;
+    border-bottom: 4px solid #EF6534;
+}
+
+.login-btn {
+    border-radius: 18px;
+    background-color: #F53232;
+}
