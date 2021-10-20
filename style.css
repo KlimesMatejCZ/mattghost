@@ -200,20 +200,31 @@ article section a {
 }
 
 .login-title {
-    font-size: 12px;
+    font-size: 15px;
     color: #414042;
-    text-align: left;
-    margin-left: 30px;
+    text-align: center;
 }
 
 .login-usrname {
     border: none;
-    border-bottom: 4px solid #EF6534;
+    border-bottom: 2px solid #1d1b31;
+    text-align: center;
+}
+.login-usrname:hover {
+    border: none;
+    border-bottom: 2px solid #1d1b31;
+    text-align: center;
 }
 
 .login-usrpassword {
     border: none;
-    border-bottom: 4px solid #EF6534;
+    border-bottom: 2px solid #1d1b31;
+    text-align: center;
+}
+.login-usrpassword:hover {
+    border: none;
+    border-bottom: 2px solid #1d1b31;
+    text-align: center;
 }
 
 .login-btn {
@@ -221,7 +232,13 @@ article section a {
     background-color: #F53232;
     margin: 5px 5px 10px 10px;
     border: none;
-    padding: auto;  
+    padding: auto;
     color: #fff;
     font-size: 18px;
+}
+.tlacitko-zpet{
+  text-align: left;
+}
+.tlacitko-zpet a{
+  text-decoration: none
 }
