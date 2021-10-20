@@ -248,3 +248,37 @@
     display: none;
   }
 }
+.welcome{
+  margin: 18px;
+}
+.nadpis{
+  margin: 18px;
+}
+.sluzby{
+    margin: 20px;
+    background-color: #11101d;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+.sluzby a{
+  color: white;
+  text-decoration: none;
+}
+.sluzby a:hover{
+  color: white;
+  text-decoration: none;
+}
+.sluzby-nazev {
+  text-align: center;
+}
+
+.sluzby-fork {
+  display: flex;
+  text-align: left;
+  float: left;
+  font-size: 50px;
+}
