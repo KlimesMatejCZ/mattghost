@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="obrazky/ico.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <title>MattGhost l Admin</title>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxs-ghost'></i>
+        <div class="logo_name">MattGhost</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Vyhledat...">
+         <span class="tooltip">Vyhledat</span>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Panel</span>
+        </a>
+         <span class="tooltip">Panel</span>
+      </li>
+      <li>
+       <a href="sluzby.html">
+         <i class='bx bx-server'></i>
+         <span class="links_name">Služby</span>
+       </a>
+       <span class="tooltip">Služby</span>
+     </li>
+     <li>
+       <a href="profil.html">
+         <i class='bx bx-user-circle'></i>
+         <span class="links_name">Profil</span>
+       </a>
+       <span class="tooltip">Profil</span>
+     </li>
+     <li>
+       <a href="historie.html">
+         <i class='bx bx-history' ></i>
+         <span class="links_name">Historie</span>
+       </a>
+       <span class="tooltip">Historie</span>
+     </li>
+     <li>
+       <a href="soubory.html">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">Soubory</span>
+       </a>
+       <span class="tooltip">Soubory</span>
+     </li>
+     <li>
+       <a href="ftp.html">
+         <i class='bx bx-group'></i>
+         <span class="links_name">FTP</span>
+       </a>
+       <span class="tooltip">FTP</span>
+     </li>
+     <li>
+       <a href="podpora.html">
+         <i class='bx bx-support' ></i>
+         <span class="links_name">Podpora</span>
+       </a>
+       <span class="tooltip">Podpora</span>
+     </li>
+     <li>
+       <a href="zpravy.html">
+         <i class='bx bxs-message-square-check'></i>
+         <span class="links_name">Zprávy</span>
+       </a>
+       <span class="tooltip">Zprávy</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="prof/klimes.png" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Klimeš Matěj</div>
+             <div class="job">Vedoucí projektu</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div class="text">Soubory</div>
+  </section>
+  <script>
+  let sidebar = document.querySelector(".sidebar");
+  let closeBtn = document.querySelector("#btn");
+  let searchBtn = document.querySelector(".bx-search");
+
+  closeBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("open");
+    menuBtnChange();//calling the function(optional)
+  });
+
+  searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+    sidebar.classList.toggle("open");
+    menuBtnChange(); //calling the function(optional)
+  });
+
+  // following are the code to change sidebar button(optional)
+  function menuBtnChange() {
+   if(sidebar.classList.contains("open")){
+     closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+   }else {
+     closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+   }
+  }
+  </script>
+</body>
+</html>
